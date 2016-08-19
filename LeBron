@@ -1,0 +1,97 @@
+<!--
+HTML
+-->
+
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+<div class="container-fluid">
+
+  <body>
+    <div class="navbar navbar-default navbar-fixed-top">
+      <h1 class="text-center"> LeBron James</h1>
+
+      <h2 class="text-center">The King of Cleveland </strong><span class="glyphicon glyphicon-king"></span></h2>
+    </div>
+    <img src="http://i2.cdn.turner.com/cnnnext/dam/assets/160622160732-05-cleveland-cavaliers-parade-0622-exlarge-169.jpg" class="img-responsive img-circle center-block" alt="LeBron James at the Cavs 2016 Championship parade">
+
+    <p class="text-center text-muted">“I came back [to Cleveland] for a reason. I came back to bring a championship to our city."</p>
+    <h3 class="text-justify text-left ">Born in Ohio in 1984, LeBron James garnered national attention as the top high school basketball player in the country. With his unique combination of size, athleticism and court vision, he became one of the premier players in the NBA for the Cleveland Cavaliers. After leading the Miami Heat to titles in 2012 and 2013, he returned to Cleveland in the summer of 2014 to play alongside fellow all-stars Kevin Love and Kyrie Irving.
+       <h3 class="text-justify text-left">In perhaps the crowning achievement of his career, he led his team back from a 3-1 deficit, scoring 41 points in both Games 5 and 6, before recording a triple double in Game 7 to give the Cavs their first championship in franchise history.
+       </h3>
+     
+      <div class="center">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/dgr4JFZtoKw" frameborder="1" allowfullscreen></iframe></div>
+      
+    <h3 class="text-justify text-left">
+Voted Finals MVP, James said, "I came back to bring a championship to our city. I knew what I was capable of doing. I knew what I learned in the last couple years that I was gone, and I knew if I had to—when I came back—I knew I had the right ingredients and the right blueprint to help this franchise get back to a place that we've never been. That's what it was all about."</h3>
+    <p class="text-right">*To learn more about LeBron visit his<a href="https://en.wikipedia.org/wiki/LeBron_James" target="_blank"> Wikipedia Page</a></p>
+
+
+  </body>
+</div>
+
+<!--
+CSS
+-->
+
+h1 {
+  font-family: "Lobster", monospace;
+  font-size: 60px;
+  color: #860038 !important;
+}
+
+body {
+  margin-top: 160px;
+}
+
+h2 {
+  color: #FDBB30;
+}
+
+img {
+  margin: 20px;
+}
+
+img:hover {
+  -webkit-filter: grayscale(0%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(0%);
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(0%);
+  -o-transition: .5s ease-in-out;
+}
+
+img {
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(100%);
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(100%);
+  -o-transition: .5s ease-in-out;
+}
+
+h3 {
+  margin: 40px
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.center {
+  margin: 0 auto;
+  width: 560px;
+}
+
